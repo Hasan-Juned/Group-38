@@ -11,3 +11,6 @@ cars <- read.csv("Cars_Datasets_2025.csv")
 # Horse Power column has character data like: 963 hp, so firstly removed " hp" to make 963 as numerical
 cars$HorsePower <- as.numeric(gsub(" hp", "", cars$HorsePower))
 
+# checking the cleaned data for horsepower
+class(cars$HorsePower)
+summary(cars$HorsePower)

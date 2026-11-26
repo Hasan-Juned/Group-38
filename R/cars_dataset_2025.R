@@ -36,6 +36,9 @@ hist(cars$Total.Speed,
      ylab = "Frequency")
 
 
+#
+
+
 
 
 
